@@ -2,7 +2,7 @@
 - hosts: app_nodes
   become: yes
   vars:
-    app_url: https://github.com/JakubSabuda/ZadaniePP5/releases/download/2.0/vouchershop.jar
+    app_url: https://github.com/mrDreivix/ZadaniePP5/releases/download/V123/vouchershop.jar
     java_rpm_url: https://corretto.aws/downloads/latest/amazon-corretto-11-x64-al2-jre.rpm
     app_dest_dir: /opt/vouchershop
     app_user: vouchershop
